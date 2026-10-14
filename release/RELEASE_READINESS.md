@@ -1,6 +1,6 @@
 # Final Release Readiness Pack
 
-This document outlines the final production readiness state for the upcoming release.
+This document outlines final production readiness state for the upcoming release.
 
 ## Release Version Information
 - **Version:** 1.0.0
@@ -12,7 +12,7 @@ This document outlines the final production readiness state for the upcoming rel
 - **Strategy:** Rolling update via GitHub Actions
 - **Infrastructure Setup:** AWS EC2 (`t3.medium`) provisioned via Terraform, with the application running in Kubernetes.
 
-## Rollback Strategy
+## Rollback Strategycd
 - **Strategy:** Deploy previous stable version via GitHub Actions
 - **Target Version:** 0.9.0
 
